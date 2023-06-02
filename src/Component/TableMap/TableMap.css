@@ -1,0 +1,43 @@
+.description {
+    padding: 20px;
+}
+
+.Quantitydiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.price,
+.reviews {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sub,
+.add,
+.quantity {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.price,
+.description {
+    color: #0097C1;
+}
+
+.image {
+    cursor: pointer;
+    -webkit-transform: scale(1);
+    transform: scale(0.7);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    z-index: -2000;
+}
+
+.image:hover {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
